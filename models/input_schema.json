@@ -1,0 +1,17 @@
+{
+  "numeric_features": [
+    "patient_age",
+    "duration_hours",
+    "claim_cost",
+    "payer_coverage",
+    "prior_encounter_count",
+    "days_since_prev"
+  ],
+  "categorical_features": [
+    "encounter_class",
+    "payer_name",
+    "gender",
+    "race"
+  ],
+  "days_since_prev_null_sentinel": 9999
+}

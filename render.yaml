@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: readmission-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
